@@ -5,3 +5,4 @@ var welcomeMessage = greeting + name + message;
 
 var el = document.getElementById('greeting');
 el.textContent = welcomeMessage;
+
