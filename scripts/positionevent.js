@@ -14,5 +14,5 @@ function showPosition(event) {
 	cy.value = event.clientY;
 }
 
-var el + documetn.getElementById('body');
+var el + document.getElementById('body');
 el.addEventListener('mousemove', showPosition, false);
