@@ -6,13 +6,9 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	
-
-
 	<div id="content">
 		<div id="greeting" class="message">Hiya!</div>
 		
-	
 		<header>
 		</header>
 	
@@ -29,5 +25,17 @@
 		</main>
 	</div>
 	<script src="scripts/greeting.js"></script>
+	
+	<div class="two-thirds">
+		<form id="application" action="apply.php">
+			<label for="username">Name</label>
+			<input type="text" id="username" name="username" /><br>
+			<label for="answer">Complaints?</label>
+			<textarea id="answer" name="answer"></textarea>
+			<input type="submit" />
+		</form>
+	</div>
+		<script src="scripts/localstore.js"></script>
+		<script src="scripts/location.js"></script>
 </body>
 </html>	
